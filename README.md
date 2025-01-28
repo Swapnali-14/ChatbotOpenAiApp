@@ -25,7 +25,7 @@ CREATE TABLE Products (
 ############################### Insert Queries #####################################3
 
 INSERT INTO Suppliers (name, contact_info, product_categories_offered)
-VALUES ('Supplier A', 'contact@supplierA.com', 'Electronics, Home Appliances');
+VALUES ('Supplier A', 's@gmail.com', 'Electronics, Home Appliances');
 
 INSERT INTO Products (name, brand, price, category, description, supplier_id)
 VALUES ('Smartphone', 'BrandX', 299.99, 'Electronics', 'Latest model smartphone', 1),
